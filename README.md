@@ -1,40 +1,44 @@
 # Computational Physics Fundamentals
 
-This repository contains fundamental codes, notebooks, and visualizations developed as part of a computational physics course. It focuses on building a strong foundation for solving basic physical problems using Python programming and numerical methods.
+This repository contains a curated collection of Jupyter Notebooks (`.ipynb`), scripts, and visualizations developed during the **undergraduate Computational Physics course**. It serves as a comprehensive record of the process of building a strong foundation for solving physical problems using Python and advanced numerical methods.
 
 ## Repository Structure
 
-The repository includes:
+The repository is organized by computational domain for easy navigation through the coursework:
 
-- **Jupyter Notebooks (`.ipynb`)** – Interactive notebooks for step-by-step explanations, symbolic computation, and visualizations.
-- **Python Scripts (`.py`)** – Modular scripts for reusable functions and simulations.
+* **`fundamental/`** – Introduction to numerical operations, data visualization, floating-point, and complex number computations.
+* **`symbolic/`** – Symbolic computation using `SymPy` for analytical tasks, including calculus and Lagrangian/Hamiltonian mechanics.
+* **`regression/`** – Data analysis techniques covering both linear and non-linear regression models.
+* **`interpolation/`** – Methods for data approximation, reconstruction, and grid-based interpolation.
+* **`optimization/`** – Algorithms for finding extrema and root-finding in physical systems.
+* **`integration/`** – Numerical quadrature and solving definite/cumulative integrals.
+* **`fourier/`** – Fast Fourier Transform (FFT) and practical implementation in signal filtering.
+* **`derivative/`** – Numerical differentiation and finite difference schemes.
+* **`differential equation/`** – Solving complex ordinary and partial differential equations.
 
-## Topics Covered
+*Upcoming modules: Linear Algebra, Series, Special Functions, and Monte-Carlo simulations.*
 
-The materials span a range of introductory and essential topics in computational physics:
+## Python Libraries & Environment
 
-### Symbolic and Analytical Calculations (using `SymPy`)
-- Calculus (differentiation, integration)
-- Implicit equations and differential systems
-- Lagrangian and Hamiltonian mechanics
+All projects were developed in an academic environment using the following scientific stack:
 
-### Data Visualization (using `Matplotlib`)
-- 2D and 3D plots
-- Quantum systems: particle in a box, quantum harmonic oscillator
-- Radiation curves: blackbody radiation visualization
+* **Language:** Python 3.x
+* **Environment:** Jupyter Notebook / JupyterLab
+* **Core Libraries:** `numpy`, `scipy`, `sympy`, `matplotlib`
 
-### Numerical and Statistical Tools
-- Regression and curve fitting
-- Numerical derivatives and integrals
-- Arithmetic and trigonometric operations
+### Installation
 
-## Requirements
-
-- Python
-- Jupyter Notebook
-- `numpy`, `scipy`, `sympy`, `matplotlib`
-
-Install with:
+The environment can be replicated by running:
 
 ```bash
 pip install numpy scipy sympy matplotlib
+
+```
+
+## References
+
+The methodologies and problem-solving approaches in this repository are based on the following academic texts utilized throughout the curriculum:
+
+* **Boas, M. L. (2006).** *Mathematical Methods in the Physical Sciences* (3rd ed.). Wiley.
+* **Gottlieb, S. A., & Landau, R. H. (2015).** *Introduction to Numerical Programming: A Practical Guide for Scientists and Engineers Using Python and C/C++*. CRC Press, Taylor & Francis Group.
+* **Wong, T. G. (2022).** *Introduction to Classical and Quantum Computing*. Rooted Grove Omaha, NE, USA.
